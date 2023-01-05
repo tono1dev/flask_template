@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>{{props.title}}</title>
+</head>
+
+<body>
+    <div id="contents">
+        <p>{{props.msg}}</p>
+    </div>
+    <hr>
+    <div class="table">
+        <div class="table_line">
+            <div class="block1">技名</div>
+            <div class="block2">タイプ</div>
+            <div class="block2">威力</div>
+            <div class="block2">命中率</div>
+            <div class="block2">PP</div>
+            <div class="block3">説明</div>
+        </div>
+        <div class="table_line">
+            <div class="block1">10まんボルト</div>
+            <div class="block2">でんき</div>
+            <div class="block2">90</div>
+            <div class="block2">100</div>
+            <div class="block2">15</div>
+            <div class="block3">10%の確率で相手をまひ状態にする。</div>
+        </div>
+        <div class="table_line">
+            <div class="block1">あくのはどう</div>
+            <div class="block2">あく</div>
+            <div class="block2">80</div>
+            <div class="block2">100</div>
+            <div class="block2">15</div>
+            <div class="block3">20%の確率で相手をひるませる。</div>
+        </div>
+        <div class="table_line">
+            <div class="block1">アシストパワー</div>
+            <div class="block2">エスパー</div>
+            <div class="block2">20</div>
+            <div class="block2">100</div>
+            <div class="block2">10</div>
+            <div class="block3">自分の能力ランク上昇1つにつき威力が20上がる。</div>
+        </div>
+        <div class="table_line">
+            <div class="block1">アシッドボム</div>
+            <div class="block2">どく</div>
+            <div class="block2">40</div>
+            <div class="block2">100</div>
+            <div class="block2">20</div>
+            <div class="block3">相手の特防を2段階下げる。</div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<style>
+    .table_line {
+        display: table;
+        width: 800px;
+    }
+
+    .block1 {
+        display: table-cell;
+        border: solid 1px #999;
+        width: 100px;
+    }
+    .block2 {
+        display: table-cell;
+        border: solid 1px #999;
+        width: 50px;
+    }
+    .block3 {
+        display: table-cell;
+        border: solid 1px #999;
+        width: 300px;
+    }
+</style>
